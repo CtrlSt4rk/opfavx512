@@ -1,4 +1,4 @@
-This is the source code of the OPF, modified to add parallelism.
+This is the source code of the OPF, modified to add parallelism and AVX-512 support on LibOPF-List.
 
 Here is a brief description of the contents:
 
@@ -31,7 +31,7 @@ following binaries will be compiled:
   - opf_learn_paravx   -> with PQ, OpenMP and manual vectorization using AVX instructions
   - opf_learn_parsimd -> with PQ, OpenMP and auto vectorization using OpenMP SIMD clause
   
-For 'LibOPF-Parallel':
+For 'LibOPF-List':
   - opf_learn_list     -> without PQ and with OpenMP
   - opf_learn_listavx  -> without PQ, OpenMP and manual vectorization using AVX-512 + AVX2 instructions
   - opf_learn_listsimd -> without PQ, OpenMP and auto vectorization using OpenMP SIMD clause
