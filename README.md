@@ -4,7 +4,7 @@ Here is a brief description of the contents:
 
 LibOPF - main path using the original algorithm (with Priority Queue)
 
-LibOPF-Parallel - main path using an alternative algorithm (a parallel list - 
+LibOPF-List - main path using an alternative algorithm (a parallel list - 
                   no Priority Queue)
                   
 repo - contains the datasets. Note that Susy and Miniboone are NOT present due 
