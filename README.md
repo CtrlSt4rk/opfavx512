@@ -20,6 +20,10 @@ gen-table.sh - generates a table for each application (data set) and plot a
          
 stats.sh - calculates the iteration counter (average)
 
+susyminiboone.sh - downloads Susy and MiniBooNE datasets
+
+dataAnalyser/dataAnalyser.sh - interpretates results and creates a log
+
 Before running 'run.sh' you need to manually compile the opf binaries. Just 
 enter the corresponding directory and issue a 'make' command. For 'LibOPF' the 
 following binaries will be compiled:
